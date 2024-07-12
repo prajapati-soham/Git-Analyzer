@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LibGit2Sharp" Version="0.30.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LibGit2Sharp">
+      <HintPath>C:\Users\soham\.nuget\packages\libgit2sharp\0.30.0\lib\net6.0\LibGit2Sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
